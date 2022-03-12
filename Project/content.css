@@ -1,0 +1,102 @@
+.neko{
+  width: 100px;
+  height: 100px;
+}
+body{
+  background-color: black;
+  margin: 0;
+  padding: 0;
+}
+.picture{
+  height: 500px;
+  margin-left: 240px;
+}
+.woman{
+  height: 600px;
+}
+.page-header{
+  margin-top: 0;
+  margin-left: 0;
+  height: 170px;
+  background-color: rgba(0, 0, 0);
+  margin-left: 60px;
+  padding-top: 0;
+}
+.page{
+  display: inline;
+}
+.black-border{
+  display: inline;
+}
+.shopname{
+  display: inline;
+  margin-left: 10px;
+  color: white;
+  font-size: 140px;
+  font-family: Arial Black, Gadget, sans-serif;
+  text-decoration: none;
+}
+.kanji{
+  display: inline;
+  color: white;
+}
+.text{
+  display: inline;
+}
+.product-text{
+  color: white;
+  font-size: 39px;
+  display: flow-root;
+  text-align: center;
+  margin-left: 100px;
+  padding-top: 0;
+  font-family: Comic Sans MS, cursive;
+}
+.textSec{
+  margin-right: 230px;
+}
+.wearing{
+  display: inline;
+  margin-left: 200px;
+  color: white;
+  font-size: 60px;
+  font-family: Comic Sans MS, cursive;
+}
+.referance:link {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.referance:visited {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.referance:hover {
+    color: white;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+.referance:active {
+    color: white;
+    background-color: transparent;
+    text-decoration: underline;
+}
+.footer{
+  height: 138px;
+  background-color: #FFB6C1;
+  margin-top: 130px;
+}
+.footer-author{
+  color: white;
+  font-size: 20px;
+  padding-top: 20px;
+}
+.contacts{
+  color: white;
+  font-size: 11px;
+  padding-top: 0;
+}

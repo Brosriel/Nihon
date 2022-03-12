@@ -1,0 +1,99 @@
+.page{
+  height: 100vh;
+  width: 100vw;
+}
+.neko{
+  width: 100px;
+  height: 100px;
+}
+body{
+  background-color: black;
+  margin: 0;
+  padding: 0;
+}
+.shopname{
+  display: inline;
+  margin-left: 10px;
+  color: white;
+  font-size: 140px;
+  font-family: Arial Black, Gadget, sans-serif;
+  text-decoration: none;
+}
+.kanji{
+  display: inline;
+  color: white;
+}
+.page-header{
+  margin-top: 0;
+  margin-left: 0;
+  height: 170px;
+  background-color: rgba(0, 0, 0);
+  margin-left: 60px;
+  padding-top: 0;
+}
+.content{
+    font-size: 0;
+    width: 1000px;
+    margin: 100px auto 50px;
+  }
+.product-image{
+  width: 100%;
+  margin-bottom: 25px;
+}
+.product{
+  width: 200px;
+  margin-bottom: 60px;
+  padding: 45px 45px 70px;
+  margin-right: 90px;
+  border: solid 2px rgba(255, 255, 255);
+  display: inline-block;
+  vertical-align: top;
+}
+.product-title{
+  color: white;
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 10px;
+  font-family: Comic Sans MS, cursive;
+}
+.no-right-margin{
+  margin-right: 0;
+}
+.lol{
+  height: 266px;
+}
+.gradient-button {
+  text-decoration: none;
+  display: inline-block;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 10px;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  background-image: linear-gradient(to right, #DB7093 0%, #FFB6C1 51%, #FFB6C1 100%);
+  background-size: 200% auto;
+  box-shadow: 0 0 20px rgba(0, 0, 0, .1);
+  transition: .5s;
+  font-size: 20px;
+}
+.gradient-button:hover {
+  background-position: right center;
+}
+.footer{
+  height: 138px;
+  background-color: #FFB6C1;
+}
+.footer-author{
+  color: white;
+  font-size: 20px;
+  padding-top: 20px;
+}
+.contacts{
+  color: white;
+  font-size: 11px;
+  padding-top: 0;
+}
